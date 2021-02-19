@@ -1,3 +1,4 @@
+// o props foi definido para receber elementos do getStaticProps
 function Tempo(props) {
     const dynamicDate = new Date();
     const dynamicDateString = dynamicDate.toGMTString();
